@@ -1,0 +1,19 @@
+{
+  "name": "bmc-seat-checker-ui",
+  "version": "1.0.0",
+  "description": "BMC seat availability checker using web scraping",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["bmc", "seats", "notification", "scraping", "playwright"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "playwright": "^1.40.0"
+  }
+}
